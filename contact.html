@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpg" href="ChatGPT Image Oct 30, 2026, 11_33_49 PM.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact Us - VERTORIDE</title>
+</head>
+<body class="stickyfooter">
+    <header>
+        <div id="panel">
+            <div id="logo"><img src="vertoride_wordmark.svg" alt="logo" height="80px" width="350px"></div>
+            <div class="parent">
+                <div id="home" class="child"><a href="index.html">Home</a></div>
+                <div id="rides" class="child"><a href="index.html#Services">Rides</a></div>
+                <div id="contactus" class="child"><a href="contact.html">Contact Us</a></div>
+                <div id="login" class="child"><a href="login.html" id="loginlink">Login / Sign Up</a></div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="formcard">
+            <p class="formhead">Contact Us</p>
+            <p class="formsub">Leave your details and our team will message you as soon as possible.</p>
+            <form id="contactForm">
+                <label for="cname">Name:</label>
+                <input type="text" id="cname" placeholder="Enter your name" required>
+                <label for="cphone">Contact No:</label>
+                <input type="tel" id="cphone" placeholder="Enter your mobile number" pattern="[6-9][0-9]{9}" maxlength="10" minlength="10" required>
+                <label for="cemail">Email (optional):</label>
+                <input type="email" id="cemail" placeholder="Enter your email">
+                <label for="ctopic">What do you need help with?</label>
+                <select id="ctopic" required>
+                    <option value="" disabled selected>Select a topic</option>
+                    <option value="Booking help">Booking help</option>
+                    <option value="Pricing">Pricing</option>
+                    <option value="Complaint">Complaint</option>
+                    <option value="Other">Other</option>
+                </select>
+                <label for="cmessage">Message:</label>
+                <textarea id="cmessage" rows="4" placeholder="Write your message here" required></textarea>
+                <a href="login.html" id="signinbtn" class="formsubmit">Sign in</a>
+                <button type="submit" id="submitbtn" class="formsubmit hidden">Send Request</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            Verto-Ride-
+            Your journey our Responsibility <br>
+            Phagwara, Punjab<br>
+            © 2026 Vertoride all rights reserved
+        </div>
+    </footer>
+    <div id="thankbox" class="overlay hidden">
+        <div class="thankcard">
+            <p class="thankhead">Thank you, <span id="thankname"></span>! 🎉</p>
+            <p class="thanktext">We got your request. Our team will message you on <span id="thankphone"></span> as soon as possible.</p>
+            <button id="thankclose" class="thankbtn">Close</button>
+        </div>
+    </div>
+
+    <script src="common.js"></script>
+    <script src="contact.js"></script>
+</body>
+</html>

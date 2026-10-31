@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpg" href="ChatGPT Image Oct 30, 2026, 11_33_49 PM.png">
+    <link rel="stylesheet" href="style.css">
+    <title>VERTORIDE-VEHICLE RENTING</title>
+</head>
+<body>  
+    <header>
+        <div id="panel">
+            <div id="logo"><img src="vertoride_wordmark.svg" alt="logo" height="80px" width="350px"></div>
+            <div class="parent">
+                <div id="home" class="child"><a href="index.html">Home</a></div>
+                <div id="rides" class="child"><a href="#Services">Rides</a></div>
+                <div id="contactus" class="child"><a href="contact.html">Contact Us</a></div>
+                <div id="login" class="child"><a href="login.html" id="loginlink">Login / Sign Up</a></div>
+            </div>
+        </div>
+    </header>
+    <br><br>
+    <main>
+        <br><br><br><br><br>
+        <div id="greet">
+            <p id="greetp">Welcome to Verto-Ride</p><br><br>
+            <p id="greetc">
+                We are thrilled to have you here! Whether you're planning an unforgettable cross-country<br> road trip, seeking a sleek car for a business trip, or simply needing a quick bike to zip through city traffic on your daily commute, VertoRide is designed to get you where you need to go—smoothly, affordably, and on your terms. <br><br>
+            </p>
+        </div>
+        <H1>🌟Why Rent with VertoRide?</H1><br>
+        <div id="Whyp">
+            <div class="whyc" id="fleet"> Diverse Fleet🚘<br><br> From compact hatchbacks and premium SUVs to fuel-efficient scooters and luxury rides, choose the vehicle that best fits your journey.<br></div>
+            <div class="whyc" id="rental">Flexible Rentals⚡<br><br> Rent by the hour, day, week, or month with seamless booking and transparent pricing—no hidden surprises.</div>
+            <div class="whyc" id="safe">Safe & Reliable🛡️:<br><br> Every vehicle in our network undergoes regular safety inspections and thorough cleaning before every trip.</div>
+            <div class="whyc" id="pick">Convenient Pickups📍<br><br> Pick up and drop off at hundreds of convenient locations across the city, or opt for doorstep delivery where available.</div>
+        </div>
+        <br><br>
+        <a href="#booking" id="btn"> Rent a Vehicle </a>
+        <br><br><br><hr><hr>
+        <div id="Services">
+            <div class="servicec" id="bike">
+                <img src="bycicle.png" alt="Bike" height="100px" width="100px">Bike<br>
+                (Royal Enfield, KTM,<br> Yamaha,Honda)<br><br>₹30-₹75 /Hr<br><br><button class="btn1" data-type="bike">Book Now</button>
+            </div>
+            <div class="servicec" id="SUV"><img src="car.png" alt="SUV" height="90px" width="90px">SUV<br>(Mahindra XUV, Creta, KIA)<br><br><br>₹130-₹250 /HR<br><br><button class="btn1" data-type="suv">Book Now</button></div>
+            <div class="servicec" id="Seddan"><img src="sedan.png" alt="Sedan" height="100px" width="100px">Sedan<br>(Maruti Dzire,<br> Honda City, Hyundai Verna)<br><br>₹90-₹150 /HR<br><br><button class="btn1" data-type="sedan">Book Now</button></div>
+            <div class="servicec" id="Scooty"><img src="scooter.png" alt="Scooty" height="90px" width="90px" >Scooty<br>(Honda, Activa, TVS)<br><br><br>₹15-₹30 /HR<br><br><button class="btn1" data-type="scooty">Book Now</button></div>
+        </div>
+        <div id="booking">
+            <p id="stepsp">
+                    ⦿ Steps to book your Desired Vehicle:<br><br>
+                    ➤ Provide Your Details:<br>
+
+                    Choose your preferred vehicle, select your rental dates, and fill in your contact details to submit a booking request.<br><br>
+
+                    ➤ Get a Confirmation Call: <br>
+
+                    Our moderator will contact you to discuss your requirements, verify your details, and confirm vehicle availability. <br><br>
+
+                    ➤ Get Your Vehicle: <br>
+
+                    Once your booking is confirmed, your selected vehicle will be arranged and provided according to your requested rental period. <br> <br>
+            </p>
+            <div id="Form">
+                <form id="bookingForm">
+                    Name: <input type="text" placeholder="Enter Your Name" id="name" class="formc" required >
+                    Contact No: <input type="tel" id="phone" name="phone" class="formc" placeholder="Enter Your Mobile Number" pattern="[6-9][0-9]{9}" maxlength="10"minlength="10"required>
+                    <label for="vehicleType" class="formc">Select Vehicle Type:</label>
+
+                        <select id="vehicleType" class="formc" required>
+                            <option value="" disabled selected>Select Type</option>
+                            <option value="sedan">Sedan</option>
+                            <option value="suv">SUV</option>
+                            <option value="bike">Bike</option>
+                            <option value="scooty">Scooty</option>
+                        </select>
+
+                    <label for="vehicleName" class="formc">Select Your Vehicle:</label>
+                        <select id="vehicleName" class="formc" required>
+                            <option value="">First select vehicle type</option>
+                        </select>
+                    <div id="" class="formc">
+                        From: <input type="date"  id="datei" class="datec" required>
+                        To:   <input type="date"  id="datef" class="datec" required>
+                    </div>
+                    <label for="Location" class="formc">Select Location: </label>
+                    <select name="formc" id="locationselect" required>
+                        <option value="" disabled selected>Enter your Location</option>
+                        <option value="Abohar">Abohar</option>
+                        <option value="Amritsar">Amritsar</option>
+                        <option value="Anandpur Sahib">Anandpur Sahib</option>
+                        <option value="Barnala">Barnala</option>
+                        <option value="Bathinda">Bathinda</option>
+                        <option value="Batala">Batala</option>
+                        <option value="Dera Bassi">Dera Bassi</option>
+                        <option value="Faridkot">Faridkot</option>
+                        <option value="Fatehgarh Sahib">Fatehgarh Sahib</option>
+                        <option value="Ferozepur">Ferozepur</option>
+                        <option value="Gurdaspur">Gurdaspur</option>
+                        <option value="Hoshiarpur">Hoshiarpur</option>
+                        <option value="Jalandhar">Jalandhar</option>
+                        <option value="Kartarpur">Kartarpur</option>
+                        <option value="Kapurthala">Kapurthala</option>
+                        <option value="Khanna">Khanna</option>
+                        <option value="Ludhiana">Ludhiana</option>
+                        <option value="Malerkotla">Malerkotla</option>
+                        <option value="Moga">Moga</option>
+                        <option value="Mohali">Mohali</option>
+                        <option value="Muktsar">Muktsar</option>
+                        <option value="Nakodar">Nakodar</option>
+                        <option value="Pathankot">Pathankot</option>
+                        <option value="Patiala">Patiala</option>
+                        <option value="Phagwara">Phagwara</option>
+                        <option value="Rajpura">Rajpura</option>
+                        <option value="Rupnagar">Rupnagar</option>
+                        <option value="Sangrur">Sangrur</option>
+                        <option value="Zirakpur">Zirakpur</option>
+                    </select>
+                    <div id="pricebox" class="hidden">
+                        <p>Rate: <span id="pricerate"></span> per hour</p>
+                        <p>Rent period: <span id="pricedays"></span></p>
+                        <p class="pricetotal">Total Cost: <span id="pricetotal"></span></p>
+                    </div>
+
+                    <a href="login.html" id="signinbtn" class="formbtn">Sign in</a>
+                    <button type="submit" id="submitbtn" class="hidden">Submit</button>
+                 </form>
+
+            </div>
+
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            Verto-Ride-
+            Your journey our Responsibility <br>
+            Phagwara, Punjab<br>
+            © 2026 Vertoride all rights reserved
+        </div>
+    </footer>
+
+    <div id="thankbox" class="overlay hidden">
+        <div class="thankcard">
+            <p class="thankhead">Thank you, <span id="thankname"></span>! 🎉</p>
+            <p class="thanktext">Your selected vehicle:</p>
+            <p class="thankvehicle"><span id="thanktype"></span> - <span id="thankmodel"></span></p>
+            <p class="thanktext">Total rent: <span id="thankprice"></span></p>
+            <p class="thanktext">Our moderators will reach you on <span id="thankphone"></span> as soon as possible.</p>
+            <button id="thankclose" class="thankbtn">Close</button>
+        </div>
+    </div>
+
+    <script src="common.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
