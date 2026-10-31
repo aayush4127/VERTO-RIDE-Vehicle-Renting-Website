@@ -5,10 +5,10 @@ This project has been developed as part of Continuous Assessment 2 (CA2) for the
 
 Project Team Members:
 
-S.No.	Name	    Roll Number
-1.	Aayush Verma      29
-2.	Aditya Jayswal    30
-3.	Piyush Kumar	    31
+S.No.	Name	             Roll Number
+1.	Aayush Verma            29
+2.	Aditya Kumar Jayswal    30
+3.	Piyush Kumar	          31
 
 Tools Used: HTML, CSS, JavaScript, Google, MSN, and Gemini.
 
